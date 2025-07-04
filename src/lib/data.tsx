@@ -20,6 +20,7 @@ import LogoCypressLight from "/public/images/logos/icon-cypress-light.svg";
 import LogoStorybook from "/public/images/logos/icon-storybook.svg";
 import LogoGit from "/public/images/logos/icon-git.svg";
 
+import CulqiLogo from "/public/images/culqi-logo.png";
 import NexolinkLogo from "/public/images/nexolink-logo.png";
 import MacsaLogo from "/public/images/macsa-logo.png";
 import FortelLogo from "/public/images/fortel-logo.png";
@@ -167,6 +168,24 @@ export const TECHNOLOGIES: TechDetails[] = [
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
+  {
+    logo: CulqiLogo,
+    logoAlt: "Culqi logo",
+    position: "Analista de Datos y Soporte",
+    startDate: new Date(2024, 2),
+    endDate: new Date(2025, 2),
+    // currentlyWorkHere: true,
+    summary: [
+      "Gestioné y analicé datos complejos en MySQL y MongoDB, optimizando consultas para mejorar la eficiencia operativa.",
+      "Realicé integraciones y pruebas exhaustivas de APIs REST utilizando Postman, asegurando la conectividad y funcionalidad de los servicios.",
+      "Administré usuarios y permisos en AWS Cognito y Microsoft IAM, fortaleciendo la seguridad y el control de acceso.",
+      "Monitoreé y resolví proactivamente incidencias en entornos Kubernetes, manteniendo la estabilidad y disponibilidad de las aplicaciones.",
+      "Proporcioné soporte técnico especializado para plataformas de pago (Culqi Link, POS, Online) y medios de pago (Niubiz, OT, TQC), garantizando la continuidad del negocio.",
+      "Configuré terminales MPOS (asignación, liberación, reactivación), optimizando la gestión de dispositivos.",
+      "Resolví tickets de soporte a través de Zendesk, Zoho Desk y sistemas internos (TicketTrac), mejorando la satisfacción del cliente.",
+      "Administré servidores GNU/Linux e implementé prácticas DevOps (CI/CD, monitoreo, optimización de infraestructura), incrementando la eficiencia del desarrollo.",
+    ],
+  },
   {
     logo: NexolinkLogo,
     logoAlt: "Nexolink logo",
