@@ -2,6 +2,7 @@ import Script from 'next/script';
 import { Inter } from 'next/font/google';
 import { Metadata } from 'next';
 
+// @ts-ignore
 import './globals.css';
 import Header from '@/components/layout/header';
 import { Providers } from '@/lib/providers';
