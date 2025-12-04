@@ -1,16 +1,16 @@
-import { Github, Twitter, Figma, Linkedin } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 
-import CulqiLogo from "/public/images/culqi-logo.png";
-import NexolinkLogo from "/public/images/nexolink-logo.png";
-import MacsaLogo from "/public/images/macsa-logo.png";
-import FortelLogo from "/public/images/fortel-logo.png";
+import CulqiLogo from "../../public/images/culqi-logo.png";
+import NexolinkLogo from "../../public/images/nexolink-logo.png";
+import MacsaLogo from "../../public/images/macsa-logo.png";
+import FortelLogo from "../../public/images/fortel-logo.png";
 
-import AmericaSolidaria from "/public/images/america_solidaria_web.png";
-import Aspefobst from "/public/images/aspefobst_web.png";
-import ConCausa from "/public/images/concausa_web.png";
-import CheapTrip from "/public/images/agency_cheaptrip_web.png";
-import RickandMorty from "/public/images/rick&morty_web.png";
-import Asesoria from "/public/images/asesoria_tesis_web.png";
+import AmericaSolidaria from "../../public/images/america_solidaria_web.png";
+import Aspefobst from "../../public/images/aspefobst_web.png";
+import ConCausa from "../../public/images/concausa_web.png";
+import CheapTrip from "../../public/images/agency_cheaptrip_web.png";
+import RickandMorty from "../../public/images/rick&morty_web.png";
+import Asesoria from "../../public/images/asesoria_tesis_web.png";
 
 import {
   ExperienceDetails,
