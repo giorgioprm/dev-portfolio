@@ -11,7 +11,7 @@ const HeroSection = () => {
           <div className="flex flex-col items-center gap-4">
             <Typography variant="h1">
               Hola, soy Giorgio{' '}
-              <span className="inline-block animate-waving-hand">👋</span>
+              <span className="inline-block animate-waving-hand cursor-pointer">👋</span>
             </Typography>
             <Typography>
               Desarrollador de Software (React.js & Node.js) y Diseñador UX/UI, con un enfoque en la creación
