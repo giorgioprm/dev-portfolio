@@ -9,7 +9,6 @@ import AmericaSolidaria from "../../public/images/america_solidaria_web.png";
 import Aspefobst from "../../public/images/aspefobst_web.png";
 import ConCausa from "../../public/images/concausa_web.png";
 import CheapTrip from "../../public/images/agency_cheaptrip_web.png";
-import RickandMorty from "../../public/images/rick&morty_web.png";
 import Asesoria from "../../public/images/asesoria_tesis_web.png";
 
 import {
@@ -61,7 +60,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
   {
     logo: CulqiLogo,
     logoAlt: "Culqi logo",
-    position: "Analista de Datos y Soporte",
+    position: "QA Analyst / Technical Support Analyst",
     startDate: new Date(2024, 2),
     endDate: new Date(2025, 2),
     // currentlyWorkHere: true,
@@ -79,7 +78,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
   {
     logo: NexolinkLogo,
     logoAlt: "Nexolink logo",
-    position: "Software Developer",
+    position: "Software Developer | QA Projects",
     startDate: new Date(2022, 1),
     endDate: new Date(2023, 6),
     // currentlyWorkHere: true,
@@ -160,16 +159,7 @@ export const PROJECTS: ProjectDetails[] = [
     previewImage: CheapTrip,
     technologies: ["HTML", "CSS", "JavaScript"],
   },
-  {
-    name: "Rick and Morty App",
-    description:
-      "Web page con imagenes y datos del Api gratuita de Rick and Morty.",
-    url: "https://giorgioprm.github.io/Rick-and-Morty-app/",
-    github: "https://github.com/giorgioprm/Rick-and-Morty-app",
-    previewImage: RickandMorty,
-    technologies: ["React", "JavaScript", "HTML", "CSS"],
-  },
-];
+  ];
 
 export const TESTIMONIALS: TestimonialDetails[] = [
   {
